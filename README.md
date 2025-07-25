@@ -13,7 +13,7 @@ All labs were completed in the **East US Azure region** using a mix of **Microso
 ### ✅ Microsoft Defender for Endpoint
 - Applied preset security policies (Safe Links, Anti-Malware, Anti-Phishing)
 - Onboarded and monitored Windows devices
-- Investigated threats using Security Copilot
+- Logged into Security Copilot and explored its features
 - Created and executed KQL queries for hunting
 - Enabled audit logging with Microsoft Purview
 
