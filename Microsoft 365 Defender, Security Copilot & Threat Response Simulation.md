@@ -1,114 +1,77 @@
-🔍 Overview
-This lab focuses on simulating modern SOC tasks using Microsoft 365 Defender, Microsoft Defender XDR, Security Copilot, Microsoft Purview, and Defender for Endpoint. The exercises were designed to reflect real-world workflows across detection, investigation, hunting, and compliance.
+# 🛡️ Microsoft 365 Defender, Security Copilot & Threat Response Simulation
 
-✅ Lab Tasks Completed
-1. 🔐 Obtained Microsoft 365 Credentials
-Retrieved tenant email and admin password from lab portal/provider.
+This project simulates end-to-end security operations using Microsoft 365 Defender, Security Copilot, Microsoft Purview, and Defender for Endpoint. It covers threat policy configuration, incident response, role-based access, audit tracking, and compliance standards.
 
-Logged in to Microsoft 365 security portal successfully.
+---
 
-2. 🛡️ Applied Defender for Office 365 Preset Policies
-Signed into Microsoft Defender portal.
+## 🔧 Lab Tasks
 
-Enabled Standard and Strict preset policies:
+### ✅ 1. Defender for Office 365 & XDR Setup
+- Enabled **Standard** and **Strict** preset protection policies:
+  - Anti-phishing, anti-malware, anti-spam
+  - Safe Links and Safe Attachments
+- Defender XDR workspace was initialized successfully
+- Device discovery was enabled to detect unmanaged endpoints
 
-Anti-spam
+📸 `./screenshots/m365-defender/defender-policies.png`  
+📸 `./screenshots/m365-defender/protection-profiles.png`  
+📸 `./screenshots/m365-defender/anti-spam-policies.png`  
+📸 `./screenshots/m365-defender/device-discovery.png`
 
-Anti-malware
+---
 
-Anti-phishing
+### ✅ 2. Security Copilot Provisioning
+- Assigned **Owner** role in Azure IAM  
+- Set up **Copilot capacity** in the Security compute portal  
+- Verified provisioning completion in Copilot portal  
+- Confirmed owner permissions in role assignment panel  
 
-Safe Links
+📸 `./screenshots/m365-defender/iam-role-assignment.png`  
+📸 `./screenshots/m365-defender/copilot-capacity-setup.png`  
+📸 `./screenshots/m365-defender/copilot-provisioned.png`  
+📸 `./screenshots/m365-defender/copilot-role-assignment.png`
 
-Safe Attachments
+---
 
-3. 🧭 Initialized Microsoft Defender XDR Workspace
-Opened Microsoft 365 Defender portal.
+### ✅ 3. Endpoint Configuration & RBAC
+- **Onboarded** a test device using PowerShell  
+- Created custom role **Tier 1 Support** with security read permissions  
+- Defined **Device Group**: Regular (Full Remediation access)
 
-Verified Defender XDR workspace was initialized and ready.
+📸 `./screenshots/m365-defender/onboarded-device.png`  
+📸 `./screenshots/m365-defender/role-creation.png`  
+📸 `./screenshots/m365-defender/device-group.png`
 
-4. ⚙️ Provisioned Security Copilot Capacity
-Enabled Azure resource access.
+---
 
-Assigned Owner role at the subscription and resource group level.
+### ✅ 4. Audit Logs & Compliance Standards
+- Enabled **Audit (Standard)** logging in Microsoft Purview  
+- Activated compliance standard: **ISO/IEC 27001:2013**
 
-Deployed and verified Security Copilot capacity.
+📸 `./screenshots/m365-defender/audit-enabled.png`  
+📸 `./screenshots/m365-defender/compliance-device-inventory.png`
 
-5. 🧪 Explored Standalone Copilot
-Opened Copilot portal.
+---
 
-Navigated tabs: Sessions, Promptbooks, Roles, and Settings.
+### ✅ 5. Threat Simulation & Incident Analysis
+- Executed test **PowerShell alert** using simulated command  
+- Verified **security alerts** in Defender portal  
+- Analyzed incident propagation using **Incident Graph**
 
-Verified provisioning and configuration.
+📸 `./screenshots/m365-defender/simulated-command.png`  
+📸 `./screenshots/m365-defender/alert-timeline.png`  
+📸 `./screenshots/m365-defender/incident-graph.png`
 
-6. 🤖 Used Copilot Embedded in Defender XDR
-Investigated a Defender XDR incident using Copilot’s embedded AI assistant.
+---
 
-Reviewed:
+## 🧠 Skills Demonstrated
 
-Incident summaries
+- Defender for Office 365 policy configuration  
+- Security Copilot provisioning and IAM role setup  
+- Device onboarding and grouping  
+- Role-based access configuration  
+- Audit logging and compliance standards (ISO 27001)  
+- Alert triage and incident graph analysis
 
-Alert timeline
+---
 
-Relevant scripts and files
-
-Switched to Standalone Copilot for full promptbook exploration.
-
-7. 🕵️‍♂️ Ran a KQL Query via Copilot
-Prompted Copilot to generate a custom KQL hunting query.
-
-Executed the query under Advanced Hunting in Defender XDR.
-
-8. 📜 Enabled Microsoft Purview Audit Logs
-Accessed Microsoft Purview portal.
-
-Enabled Audit (Standard) to capture and track user and admin activities.
-
-9. 🧩 Initialized Microsoft Defender for Endpoint
-Enabled device discovery within Defender for Endpoint.
-
-Validated detection of a discovered Windows device.
-
-10. 🖥️ Onboarded a Device
-Downloaded onboarding package.
-
-Executed local onboarding script on Windows client.
-
-Device appeared in Device Inventory successfully.
-
-11. 👥 Configured Roles
-Created a custom role: Tier 1 Support.
-
-Defined permissions and assigned users from Azure AD.
-
-12. 🧾 Created Device Group
-Created group: Regular
-
-Target: Windows 10/11
-
-Permissions: Full Remediation
-
-Group assigned to Defender roles
-
-13. ✅ Enabled Regulatory Compliance Standards
-Accessed Microsoft Defender for Cloud
-
-Enabled ISO/IEC 27001:2013 compliance standard for subscription
-
-14. 📌 Reviewed Security Recommendations
-Filtered recommendations for Azure Arc systems.
-
-Assigned action items to admin with due date for remediation.
-
-15. 🚨 Reviewed and Responded to Alerts
-Triggered sample alerts.
-
-Investigated via:
-
-Alert Details
-
-Incident Graph
-
-Timeline
-
-Tracked attack paths and incident severity.
