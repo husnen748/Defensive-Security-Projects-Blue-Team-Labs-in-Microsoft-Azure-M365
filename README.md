@@ -71,9 +71,14 @@ All labs were completed in the **East US Azure region** using a mix of **Microso
 
 ## 💡 Notes
 
-- All resources were deployed, validated, and deleted to maintain cost control.
-- Labs were repeated multiple times to build consistency and command-line fluency.
-- Project structure allows for expansion with custom detections, honeypots, or Sentinel integrations.
+- These labs are based on Microsoft certification tracks AZ-500 (Azure Security Engineer) and SC-200 (Security Operations Analyst).
+- All work was completed independently for hands-on learning.  
+  *Note: These projects were not part of official certification exams.*
+- Labs were run using an **Azure Pay-As-You-Go subscription**.
+- A Microsoft 365 Developer sandbox **will be used in future lab repetitions** for additional practice.
+- Resources were deleted after each run to allow for re-creation and skill refinement.
+- Screenshots have been redacted where necessary to protect tenant and resource information.
+
 
 ---
 
