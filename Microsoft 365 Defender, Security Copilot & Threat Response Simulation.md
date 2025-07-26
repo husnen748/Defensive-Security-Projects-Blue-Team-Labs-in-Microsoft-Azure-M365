@@ -13,7 +13,13 @@ This project simulates end-to-end security operations using Microsoft 365 Defend
 - Defender XDR workspace was initialized successfully
 - Device discovery was enabled to detect unmanaged endpoints
 
-- ![Defender Policies](./screenshots/m365-defender/defender-policies.png)
+![Defender Policies](images/1.1.png)
+
+![Protection Profiles](images/2.1.png)
+
+![Anti-Spam Policies](images/3.1.png)
+
+![Device Discovery](images/4.1.png
 
 📸 `./screenshots/m365-defender/defender-policies.png`  
 📸 `./screenshots/m365-defender/protection-profiles.png`  
