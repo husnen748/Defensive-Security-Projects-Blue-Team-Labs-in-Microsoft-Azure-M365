@@ -36,10 +36,6 @@ This project simulates end-to-end security operations using Microsoft 365 Defend
 
 ![Copilot Role Assignment](images/7.1.png)
 
-📸 `./screenshots/m365-defender/iam-role-assignment.png`  
-📸 `./screenshots/m365-defender/copilot-capacity-setup.png`  
-📸 `./screenshots/m365-defender/copilot-provisioned.png`  
-📸 `./screenshots/m365-defender/copilot-role-assignment.png`
 
 ---
 
@@ -48,9 +44,9 @@ This project simulates end-to-end security operations using Microsoft 365 Defend
 - Created custom role **Tier 1 Support** with security read permissions  
 - Defined **Device Group**: Regular (Full Remediation access)
 
-📸 `./screenshots/m365-defender/onboarded-device.png`  
-📸 `./screenshots/m365-defender/role-creation.png`  
-📸 `./screenshots/m365-defender/device-group.png`
+- ![Device Groups - Microsoft Defender](images/10.1.png)
+
+- ![Tier 1 Role - Defender XDR](images/11.1.png)
 
 ---
 
@@ -58,8 +54,10 @@ This project simulates end-to-end security operations using Microsoft 365 Defend
 - Enabled **Audit (Standard)** logging in Microsoft Purview  
 - Activated compliance standard: **ISO/IEC 27001:2013**
 
-📸 `./screenshots/m365-defender/audit-enabled.png`  
-📸 `./screenshots/m365-defender/compliance-device-inventory.png`
+- ![Audit Log Search - Microsoft Purview](images/8.1.png)
+
+- ![Device Inventory - Microsoft Defender](images/9.1.png)
+
 
 ---
 
@@ -68,9 +66,12 @@ This project simulates end-to-end security operations using Microsoft 365 Defend
 - Verified **security alerts** in Defender portal  
 - Analyzed incident propagation using **Incident Graph**
 
-📸 `./screenshots/m365-defender/simulated-command.png`  
-📸 `./screenshots/m365-defender/alert-timeline.png`  
-📸 `./screenshots/m365-defender/incident-graph.png`
+- ![Simulated Malicious Command](images/12.1.png)
+
+- ![Alert Timeline - Defender for Endpoint](images/13.1.png)
+
+- ![Incident Graph - Defender Correlation](images/14.1.png)
+
 
 ---
 
