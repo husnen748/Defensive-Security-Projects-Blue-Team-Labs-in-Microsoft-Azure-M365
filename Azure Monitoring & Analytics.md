@@ -61,10 +61,6 @@ Harden SQL database security by enabling threat protection, data classification,
 
 ![SQL Audit Log View](images/8.a.png)
 
-- Defender for SQL status (enabled)
-- Data classification screen with applied labels
-- Server auditing configuration linked to storage account
-- Audit logs shown under SQL Server audit blade
 
 ---
 
