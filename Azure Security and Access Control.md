@@ -25,10 +25,8 @@ Secure access between virtual machines using NSGs and ASGs.
 
 **📸 Proof Screenshots:**
 ![NSG Inbound Rules](images/1.png)
-
-- NSG rule configuration (HTTP/HTTPS and RDP)
-- RDP session to Management VM
-- IIS Home Page loaded from Web VM
+![Installing IIS via RDP](images/2.png)
+![IIS Home Page from Web VM](images/3.png)
 
 ---
 
@@ -50,8 +48,8 @@ Control resource access using Azure RBAC.
 - Assigned **Virtual Machine Contributor** role to `Service Desk` group.
 
 **📸 Proof Screenshots:**
-- Group membership view (e.g., Senior Admins with user assigned)
-- Role assignment showing Service Desk as VM Contributor
+![Group Membership - Senior Admins](images/4.png)
+![Role Assignment - Service Desk](images/5.png)
 
 ---
 
@@ -72,9 +70,9 @@ Restrict outbound internet access using Azure Firewall.
 - Tested and validated outbound internet control.
 
 **📸 Proof Screenshots:**
-- Application Rule allowing Bing
-- Network Rule for DNS
-- VM output: Bing loads, Microsoft.com blocked
+![App Rule - Allow Bing](images/6.png)
+![Network Rule - Allow DNS](images/7.png)
+![Bing Allowed - Microsoft Blocked](images/8.png)
 
 ---
 
@@ -103,10 +101,11 @@ Restrict storage access to a private subnet using service endpoints and NSGs.
 - Internet access worked
 
 **📸 Proof Screenshots:**
-- NSG rules showing Storage allowed, Internet denied (private subnet)
-- Storage file share mounted in Private VM
-- Access denied from Public VM
-- Internet access verified from Public VM (Bing)
+![NSG Rules - Storage Allowed, Internet Denied](images/9.png)
+![Storage Mounted - Private VM](images/10.png)
+![Access Denied - Public VM](images/11.png)
+![Internet Access - Public VM (Bing)](images/12.png)
+
 
 ---
 
