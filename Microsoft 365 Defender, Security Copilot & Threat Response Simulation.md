@@ -19,12 +19,6 @@ This project simulates end-to-end security operations using Microsoft 365 Defend
 
 ![Anti-Spam Policies](images/3.1.png)
 
-![Device Discovery](images/4.1.png)
-
-📸 `./screenshots/m365-defender/defender-policies.png`  
-📸 `./screenshots/m365-defender/protection-profiles.png`  
-📸 `./screenshots/m365-defender/anti-spam-policies.png`  
-📸 `./screenshots/m365-defender/device-discovery.png`
 
 ---
 
@@ -32,7 +26,15 @@ This project simulates end-to-end security operations using Microsoft 365 Defend
 - Assigned **Owner** role in Azure IAM  
 - Set up **Copilot capacity** in the Security compute portal  
 - Verified provisioning completion in Copilot portal  
-- Confirmed owner permissions in role assignment panel  
+- Confirmed owner permissions in role assignment panel
+
+- ![IAM Role Assignment](images/4.1.png)
+
+-![Copilot Capacity Setup](images/5.1.png) 
+
+![Copilot Provisioned](images/6.1.png)
+
+![Copilot Role Assignment](images/7.1.png)
 
 📸 `./screenshots/m365-defender/iam-role-assignment.png`  
 📸 `./screenshots/m365-defender/copilot-capacity-setup.png`  
