@@ -24,8 +24,11 @@ Secure access between virtual machines using NSGs and ASGs.
 - Tested RDP and HTTP access to confirm security rule enforcement.
 
 **📸 Proof Screenshots:**
+
 ![NSG Inbound Rules](images/1.png)
+
 ![Installing IIS via RDP](images/2.png)
+
 ![IIS Home Page from Web VM](images/3.png)
 
 ---
@@ -48,7 +51,9 @@ Control resource access using Azure RBAC.
 - Assigned **Virtual Machine Contributor** role to `Service Desk` group.
 
 **📸 Proof Screenshots:**
+
 ![Group Membership - Senior Admins](images/4.png)
+
 ![Role Assignment - Service Desk](images/5.png)
 
 ---
@@ -70,8 +75,11 @@ Restrict outbound internet access using Azure Firewall.
 - Tested and validated outbound internet control.
 
 **📸 Proof Screenshots:**
+
 ![App Rule - Allow Bing](images/6.png)
+
 ![Network Rule - Allow DNS](images/7.png)
+
 ![Bing Allowed - Microsoft Blocked](images/8.png)
 
 ---
@@ -101,9 +109,13 @@ Restrict storage access to a private subnet using service endpoints and NSGs.
 - Internet access worked
 
 **📸 Proof Screenshots:**
+
 ![NSG Rules - Storage Allowed, Internet Denied](images/9.png)
+
 ![Storage Mounted - Private VM](images/10.png)
+
 ![Access Denied - Public VM](images/11.png)
+
 ![Internet Access - Public VM (Bing)](images/12.png)
 
 
