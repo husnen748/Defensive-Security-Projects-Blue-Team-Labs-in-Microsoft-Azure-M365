@@ -19,7 +19,7 @@ This project simulates end-to-end security operations using Microsoft 365 Defend
 
 ![Anti-Spam Policies](images/3.1.png)
 
-![Device Discovery](images/4.1.png
+![Device Discovery](images/4.1.png)
 
 📸 `./screenshots/m365-defender/defender-policies.png`  
 📸 `./screenshots/m365-defender/protection-profiles.png`  
