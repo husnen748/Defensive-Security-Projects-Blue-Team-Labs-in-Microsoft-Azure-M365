@@ -24,10 +24,15 @@ Deploy a virtual machine and enable telemetry collection using Azure Monitor and
 - Verified data flow to Log Analytics
 
 ### 🖼️ Proof Screenshots:
-- VM listed in PowerShell (`Get-AzVM` with ProvisioningState)
-- Log Analytics Workspace summary
-- DCR creation screen with performance counters
-- DCR linked to workspace confirmation
+
+![VM Created via PowerShell](images/1.a.png)
+
+![Log Analytics Workspace](images/2.a.png)
+
+![Storage Account Creation](images/3.a.png)
+
+![DCR Linked to Azure Monitor](images/4.a.png)
+
 
 ---
 
@@ -47,6 +52,15 @@ Harden SQL database security by enabling threat protection, data classification,
 - Signed into the SQL query editor to generate sample events
 
 ### 🖼️ Proof Screenshots:
+
+![Defender for SQL Enabled](images/5.a.png)
+
+![SQL Data Classification](images/6.a.png)
+
+![SQL Auditing to Storage](images/7.a.png)
+
+![SQL Audit Log View](images/8.a.png)
+
 - Defender for SQL status (enabled)
 - Data classification screen with applied labels
 - Server auditing configuration linked to storage account
