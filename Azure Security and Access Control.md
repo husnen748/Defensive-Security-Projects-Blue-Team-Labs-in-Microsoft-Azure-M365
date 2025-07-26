@@ -24,6 +24,8 @@ Secure access between virtual machines using NSGs and ASGs.
 - Tested RDP and HTTP access to confirm security rule enforcement.
 
 **📸 Proof Screenshots:**
+![NSG Inbound Rules](images/1.png)
+
 - NSG rule configuration (HTTP/HTTPS and RDP)
 - RDP session to Management VM
 - IIS Home Page loaded from Web VM
