@@ -13,6 +13,7 @@ This project demonstrates the end-to-end configuration of **Microsoft Sentinel**
 - Verified successful rule deployment and activation
 
 📸 Screenshot:  
+
 ![Analytics Rule Review](images/Screenshot1.png)
 
 ---
@@ -24,7 +25,9 @@ This project demonstrates the end-to-end configuration of **Microsoft Sentinel**
 - Enabled Microsoft Sentinel managed identity
 
 📸 Screenshots:  
+
 ![Create Playbook](images/Screenshot3.png) 
+
 ![Logic App Designer](images/Screenshot2.png)
 
 ---
@@ -37,6 +40,7 @@ This project demonstrates the end-to-end configuration of **Microsoft Sentinel**
   - Granted Sentinel permissions to execute playbook
 
 📸 Screenshot:  
+
 ![Automation Rule Setup](images/Screenshot4.png)
 
 ---
@@ -47,6 +51,7 @@ This project demonstrates the end-to-end configuration of **Microsoft Sentinel**
 - Confirmed successful ingestion into Log Analytics workspace
 
 📸 Screenshot:  
+
 ![Azure Activity Connector](images/Screenshot 2025-07-27 085151.png)
 
 ---
@@ -58,6 +63,7 @@ This project demonstrates the end-to-end configuration of **Microsoft Sentinel**
 - Trigger: Detection of suspicious CloudShell activity
 
 📸 Screenshot:  
+
 ![Scheduled Query Rule](images/Screenshot6.png)
 
 ---
@@ -68,6 +74,7 @@ This project demonstrates the end-to-end configuration of **Microsoft Sentinel**
   - Action: Assign incident to self
 
 📸 Screenshot:  
+
 ![Assigned Automation Rule](images/Screenshot5.png)
 
 ---
@@ -78,6 +85,7 @@ This project demonstrates the end-to-end configuration of **Microsoft Sentinel**
 - Incident Title: `New CloudShell User initiated`
 
 📸 Screenshot:  
+
 ![Incident Triggered](images/Screenshot7.png)
 
 ---
@@ -88,7 +96,9 @@ This project demonstrates the end-to-end configuration of **Microsoft Sentinel**
 - Lowered threshold score to increase detection sensitivity
 
 📸 Screenshots:  
-![UEBA Settings](Screenshot 2025-07-27 115533.png)  
-![Anomaly Rule Editing](Screenshot 2025-07-27 120019.png)
+
+![UEBA Settings](images/Screenshot 2025-07-27 115533.png)  
+
+![Anomaly Rule Editing](images/Screenshot 2025-07-27 120019.png)
 
 ---
