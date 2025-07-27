@@ -101,6 +101,6 @@ This project demonstrates the end-to-end configuration of **Microsoft Sentinel**
 
 
 
-![Anomaly Rule Editing](images/Screenshot 2025-07-27 120019.png)
+![Anomaly Rule Editing](images/Screenshot%202025-07-27%20120019.png)
 
 ---
