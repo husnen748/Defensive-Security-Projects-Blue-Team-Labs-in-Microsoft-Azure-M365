@@ -97,7 +97,8 @@ This project demonstrates the end-to-end configuration of **Microsoft Sentinel**
 
 📸 Screenshots:  
 
-![UEBA Settings](https://user-images.githubusercontent.com/.../Screenshot_2025-07-27_115533.png)
+![UEBA Settings](images/Screenshot%202025-07-27%20115533.png)
+
 
 
 ![Anomaly Rule Editing](images/Screenshot 2025-07-27 120019.png)
